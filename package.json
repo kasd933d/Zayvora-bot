@@ -1,0 +1,17 @@
+{
+  "name": "zayvora-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp bot for Zayvora luxury kitchenware",
+  "main": "bot.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.7.1",
+    "dotenv": "^16.6.1",
+    "mysql2": "^3.24.4",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.34.7"
+  }
+}
